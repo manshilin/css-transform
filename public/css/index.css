@@ -1,95 +1,127 @@
 .task1 {
+    transition: transform 1s ease; /* Анімація з тривалістю 1 секунда та з прискоренням переходу */
 }
 
 .task1:hover {
+    transform: rotate(270deg); /* Розвернення на 270 градусів при наведенні */
 }
 
 .task2 {
+    transition: transform 1s linear; /* Анімація з тривалістю 1 секунда та з лінійним переходом */
+
 }
 
 .task2:hover {
+    transform: rotateX(135deg); /* Розвернення на 270 градусів при наведенні */
 }
 
 .task3 {
+    transition: transform 1s cubic-bezier(0.4, 0, 0.2, 1); /* Анімація з тривалістю 1 секунда і функцією кюбічної кривої Безьє */
 }
 
 .task3:hover {
+    transform: rotateY(45deg); /* Розвернення на 45 градусів навколо вертикальної осі при наведенні */
 }
 
 .task4 {
+    transition: transform 1s linear; 
 }
 
 .task4:hover {
+    transform: scale(1.3); /* Збільшення масштабу в 1.3 рази при наведенні */
 }
 
 .task5 {
+    transition: transform 1s cubic-bezier(0.25, 0.46, 0.45, 0.94); /* Анімація з тривалістю 1 секунда і функцією кюбічної кривої Безьє */
 }
 
 .task5:hover {
+    transform: scaleX(1.5); /* Збільшення масштабу в 1.5 рази при наведенні (горизонтально) */
 }
 
 .task6 {
+    transition: transform 1s cubic-bezier(0.68, -0.55, 0.27, 1.55); /* Анімація з тривалістю 1 секунда і функцією кюбічної кривої Безьє */
 }
 
 .task6:hover {
+  transform: scaleY(0.5); /* Зменшення масштабу в 2 рази при наведенні (вертикально) */
 }
 
-.task7 {
+.task7 {transition: transform 1s cubic-bezier(0.39, 0.575, 0.565, 1.000); /* Анімація з тривалістю 1 секунда і функцією кюбічної кривої Безьє */
 }
 
 .task7:hover {
+  transition: transform 1s cubic-bezier(0.39, 0.575, 0.565, 1.000); /* Анімація з тривалістю 1 секунда і функцією кюбічної кривої Безьє */
 }
 
+.task7:hover {
+    transform: skewX(30deg); /* Нахил в лівий бік на 30 градусів при наведенні */
+}
 .task8 {
+    transition: transform 1s cubic-bezier(0.39, 0.575, 0.565, 1.000); /* Анімація з тривалістю 1 секунда і функцією кюбічної кривої Безьє */
 }
 
 .task8:hover {
+    transform: skewX(25deg); /* Нахил в лівий бік на 30 градусів при наведенні */
 }
 
 .task9 {
+    transition: transform 1s cubic-bezier(0.39, 0.575, 0.565, 1.000); /* Анімація з тривалістю 1 секунда і функцією кюбічної кривої Безьє */
 }
 
 .task9:hover {
+    transform: skewY(20deg); /* Нахил в лівий бік на 30 градусів при наведенні */
 }
 
 .task10 {
+    transition: transform 1s ease;
 }
 
 .task10:hover {
+    transform: translate(60px, 40px);
 }
 
 .task11 {
+    transition: transform 1s linear;
 }
 
 .task11:hover {
+  transform: translateX(50px); /* Зсув на 50px по горизонталі при наведенні */
 }
 
-.task12 {
+.task12 { transition: transform 1s linear; /* Анімація з тривалістю 1 секунда та лінійним переходом */
 }
 
 .task12:hover {
+  transform: translateY(30px);
 }
 
-.task13 {
+.task13 {transition: transform 1s cubic-bezier(0.5, 0, 0, 1); /* Анімація з тривалістю 1 секунда та кубічною кривою Безьє */
 }
 
 .task13:hover {
+  transform: translate3d(20px, 20px, 20px) rotate3d(2, 2, 2, 90deg); /* Зсув на 20px по всім осям та поворот на 90 градусів за вектором 2, 2, 2 */
 }
 
 .task14 {
+transition: transform 1s cubic-bezier(0.5, 0, 0, 1); /* Анімація з тривалістю 1 секунда та кубічною кривою Безьє */
 }
 
 .task14:hover {
+  transform: translateZ(40px) rotate3d(2, 3, 3, 45deg); /* Зсув на 40px по осі Z та поворот на 45 градусів за вектором 2, 3, 3 */
 }
 
-.task15 {
+.task15 {transition: transform 1s cubic-bezier(0.42, 0, 0.58, 1); /* Анімація з тривалістю 1 секунда та функцією кюбічної кривої Безьє */
 }
 
 .task15:hover {
+  transform: matrix(0.4, 1.1, 1.1, 0.4, 1, 1); /* Застосування матриці з маштабуванням, нахилом та зсувом при наведенні */
 }
 
-.task16 {
+.task16 {  transition: transform 1s linear; /* Анімація з тривалістю 1 секунда та лінійним переходом */
 }
 
 .task16:hover {
+  transform: matrix3d(0.5, 0, -0.866025, 0, 0.595877, 1.2, -1.03209, 0, 0.866025, 0, 0.5, 0, 25.9808, 0, 15, 1);
+  /* Застосування матриці 4x4 при наведенні */
 }
